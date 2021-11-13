@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TravelApp</string>
+    <string name="app_descripcion">El Desierto de la Tatacoa es la segunda zona árida más extensa de Colombia después de la península de la Guajira, y es uno de los escenarios naturales más atractivos de Colombia"
+                </string>
+    <string name="app_temperatura">El desierto puede superar los 45ºC al mediodía y en las noches la temperatura desciende en promedio a 18ºC
+                </string>
+    <string name="app_ubicacion">Ubicado a tan solo 40 minutos de Neiva,exactamente a unos pocos minutos del municipio de  villavieja del departamento del Huila
+                </string>
+</resources>

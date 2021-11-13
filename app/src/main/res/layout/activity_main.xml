@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F1E78D">
+
+    <LinearLayout
+        android:id="@+id/linearMaps"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:visibility="gone"
+        android:animateLayoutChanges="true"
+        android:layout_below="@+id/linearlayout_localizacion"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:id="@+id/iv_imagen"
+                android:src="@drawable/neiva"
+                android:scaleType="centerCrop" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Desierto de la tatacoa"
+                    android:id="@+id/tv_titulo"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#ff000000"
+                    android:visibility="visible"
+                    android:layout_gravity="center_vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/app_descripcion"
+                android:id="@+id/tv_descripcion"
+                android:layout_margin="5dp"
+                android:textColor="#100F0F" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Ubicacion"
+                android:id="@+id/tv_titulo_ubicacion"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#ff000000"
+                android:visibility="visible"
+                android:layout_gravity="center_vertical"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/app_ubicacion"
+                android:id="@+id/tv_ubicacion"
+                android:layout_margin="5dp"
+                android:textColor="#1E1C1C" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Temperatura"
+                android:id="@+id/tv_titulo_temperatura"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#ff000000"
+                android:visibility="visible"
+                android:layout_gravity="center_vertical"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/app_temperatura"
+                android:id="@+id/tv_temperatura"
+                android:layout_margin="5dp"
+                android:textColor="#090909" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
